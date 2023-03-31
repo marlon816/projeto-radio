@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.secao_radio{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items:center;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: -10px;
+     
+}
+.designer_radio{
+    border: 10px solid #421e05;
+    margin: 50px;
+    padding: 30px 0px;
+    background:linear-gradient( -110grad, #9d4102, #632a04, #411a00, #240000);
+}
+.linha_designer_radio{
+
+    border: 1px solid #6a5039;
+    margin:2px 2px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    
+    
+    
+}
+.circulo{
+    
+    position: absolute;
+    right: 20%;
+    width: 60%;
+    height: 140px;
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    margin: 0 auto;
+    
+}
+
+.escolha_radios button{
+    padding: 10px;
+    background-color: #d9d2a8;
+    color:black;
+    
+    
+}
+.escolha_radios button:hover{
+    
+    padding: 10px;
+    background-color: #d9d2a8;
+    color:black;
+    
+}
+.escolha_radios button:active{
+    
+    background-color: #d9d2a8;
+    color:black;
+    
+}
+
+audio{
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.botoes_gerais input{
+    display: grid;
+    margin: 15px 0;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.botoes_gerais input:disabled{
+ width: 800px;
+}
+
+.botoes_gerais input[type="range"]{
+    width: 100%;
+  }
+
+
+.botoes_controladores button{
+    padding: 10px;
+
+}
+/*javascript*/
+.esconde{
+    display: none; 
+ }
